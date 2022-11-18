@@ -68,8 +68,8 @@ const Notes = (props) => {
                             </form>
                         </div>
                         <div className="modal-footer">
-                            <button ref={refClose} type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            <button disabled={note.etitle.length<5 || note.edescription.length<5} onClick={handleClick} type="button" className="btn btn-primary">Update Note</button>
+                            <button ref={refClose} type="button" className="btn close" data-bs-dismiss="modal">Close</button>
+                            <button disabled={note.etitle.length<5 || note.edescription.length<5} onClick={handleClick} type="button" className="btn update">Update Note</button>
                         </div>
                     </div>
                 </div>
@@ -77,7 +77,7 @@ const Notes = (props) => {
 
       <div className='container Notes'>
          <h2>Your Notes</h2>
-        <div className="container  mx-2"> 
+        <div className="container  mx-4 my-2"> 
                 {notes.length===0 && 'No notes to display'}
                 </div>       
         {notes.map((note) => {

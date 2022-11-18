@@ -48,3 +48,33 @@
         grid-template-columns: repeat(1,1fr);
     }
 }
+
+.modal-content{
+    padding: 1rem 2rem;
+}
+
+.modal-footer{
+    margin: auto;
+}
+
+.close{
+    border: 2px solid black;
+}
+
+.close:hover{
+    border: 2px solid black;
+}
+
+.update{
+    border: 2px solid black;
+}
+
+.update:hover{
+    border: 2px solid black;
+}
+
+@media screen and (max-width: 400px) {
+    .modal-content{
+        padding: .5rem .5rem;
+    }
+}
