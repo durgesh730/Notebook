@@ -1,0 +1,74 @@
+.Navbottom{
+    margin-top: -31px;
+}
+
+.Signupheading{
+    text-align: center;
+    font-weight: 600;
+}
+
+.SignupCard{
+    width: 35%;
+    border: 2px solid black;
+    border-radius: 1rem;
+    padding: 1.4rem 1.6rem;
+}
+
+.SignupButtom{
+    text-align: center;
+}
+
+.SignupButtom button{
+    text-align: center;
+    border: 2px solid black;
+}
+
+.SignupButtom button:hover{
+    border-color: black;
+}
+
+
+
+@media screen and (max-width: 1300px) {
+    .SignupCard{
+        width: 40%;
+    }
+}
+
+
+@media screen and (max-width: 1200px) {
+    .SignupCard{
+        width: 45%;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    .SignupCard{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .SignupCard{
+        width: 55%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .SignupCard{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .SignupCard{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .SignupCard{
+        width: 90%;
+    }
+}

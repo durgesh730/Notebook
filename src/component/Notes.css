@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Cabin+Condensed&family=Courgette&family=Fira+Sans&family=Fredoka+One&family=Inter:wght@300&family=Leckerli+One&family=Pacifico&family=Poppins&family=Roboto&family=Roboto+Condensed&family=Rubik&family=Signika+Negative:wght@300&family=Source+Sans+Pro&family=Ubuntu:wght@300;400&family=Varela+Round&family=Yanone+Kaffeesatz&display=swap');
+.Notes{
+    padding-top: 3rem;
+    width: 50%;
+    margin: auto;
+    font-family: 'Poppins';
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap:5rem;
+}
+
+.Notes h2{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 1150px) {
+    .Notes{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .Notes{
+        width: 45%;
+        grid-template-columns: repeat(1,1fr);
+        grid-row-gap: 0rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .Notes{
+        width: 55%;
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .Notes{
+        width: 60%;
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .Notes{
+        width: 80%;
+        grid-template-columns: repeat(1,1fr);
+    }
+}

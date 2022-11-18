@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Cabin+Condensed&family=Courgette&family=Fira+Sans&family=Fredoka+One&family=Inter:wght@300&family=Leckerli+One&family=Pacifico&family=Poppins&family=Roboto&family=Roboto+Condensed&family=Rubik&family=Signika+Negative:wght@300&family=Source+Sans+Pro&family=Ubuntu:wght@300;400&family=Varela+Round&family=Yanone+Kaffeesatz&display=swap');
+body{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins';
+    transition: all 400ms ease;
+}
+
+.LoginSignupLogout{
+   background-color:white;
+   transition: all 400ms ease;
+   border-color: white;
+   border-radius: 1rem;
+}
+
+.LoginSignupLogout:hover{
+    background-color:white;
+    border-color: white;
+    transform: scale3d(1.08, 1.08, 1.08);
+ }
+
+ .navbar-brand{
+     cursor: pointer;
+     font-weight: 600;
+ }
+

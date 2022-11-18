@@ -1,0 +1,37 @@
+.bottom-nav{
+    margin-top: 3.3rem;
+    background-color: rgb(18, 17, 17);
+    padding-top: .8rem;
+    padding-bottom: .8rem;
+    color: white;
+    text-align: center;
+    font-size: .8rem;
+}
+
+@media screen and (max-width: 400px) {
+    .bottom-nav{
+       display: none;
+    }
+}
+
+/* ================== about page css ============= */
+
+.aboutPara{
+    margin: auto;
+    width: 50%;
+    margin-top: 4rem;
+    border-radius: 1rem;
+    border: 2px solid black;
+    padding: 2rem 2rem;
+}
+
+@media screen and (max-width: 400px) { 
+ .aboutPara{
+    width: 90%;
+    margin-top: 2rem;
+    padding: 1rem .5rem;
+  }
+  .aboutPara span{
+     font-size: .7rem;
+  }
+}
